@@ -1,0 +1,7 @@
+CREATE TABLE Employees (
+id      SERIAL PRIMARY KEY,
+Name    VARCHAR(30) NOT NULL,
+Surname VARCHAR(80) NOT NULL,
+email   VARCHAR(50),
+phone   VARCHAR(20)
+)
